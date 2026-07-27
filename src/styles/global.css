@@ -1,0 +1,15 @@
+:root {
+  --bg: #F1F5F9;
+  --text: #0B1120;
+  --accent: #0284C7;
+  --accent-2: #22D3EE;
+}
+[data-theme="dark"] {
+  --bg: #0B1120;
+  --text: #F1F5F9;
+  --accent: #38BDF8;
+  --accent-2: #22D3EE;
+}
+.hero-gradient {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
